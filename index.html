@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹툰 뷰어 - 프롤로그</title>
+    <style>
+        /* 페이지 전체 설정 */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0b0b; /* 좀 더 깊은 블랙 배경 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            -webkit-user-select: none; /* 우클릭 방지 등 기초적인 보호 (선택사항) */
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            width: 100%;
+            padding: 30px 0;
+            text-align: center;
+            background-color: #111;
+            border-bottom: 1px solid #333;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            color: #efefef;
+            font-size: 1.5rem;
+            font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        /* 이미지 컨테이너 */
+        .viewer-container {
+            width: 100%;
+            max-width: 720px; /* 일반적인 웹툰 가로 사이즈 */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 이미지 스타일 */
+        .viewer-container img {
+            width: 100%;
+            height: auto;
+            display: block; /* 이미지 사이 간격 방지 */
+            border: none;
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            width: 100%;
+            padding: 50px 0;
+            background-color: #111;
+            color: #666;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>프롤로그</h1>
+    </header>
+
+    <div class="viewer-container">
+        <img src="1.png" alt="프롤로그 01">
+        <img src="2.png" alt="프롤로그 02">
+        <img src="3.png" alt="프롤로그 03">
+        <img src="4.png" alt="프롤로그 04">
+    </div>
+
+    <footer>
+        <p>Copyright © All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
